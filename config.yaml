@@ -1,0 +1,10 @@
+gdb_path: "C:/msys64/ucrt64/bin/gdb.exe"
+gcc_path: "C:/msys64/ucrt64/bin/gcc.exe"
+model:
+  name: "llama-3.3-70b-versatile" # Groq model
+  temperature: 0.1
+  max_tokens: 4096
+
+timeouts:
+  gdb_command: 2  # Seconds
+  agent_response: 30 # Seconds
